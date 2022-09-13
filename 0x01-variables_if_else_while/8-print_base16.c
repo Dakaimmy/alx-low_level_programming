@@ -1,22 +1,21 @@
-
 #include <stdio.h>
 
 /**
  * main - Entry point
+ *
  * Return:0
  */
 int main(void)
 {
-	int i, y;
-	for (i = 0; i < 10; i++)
-	{
-		putchar (i + '0');
-	}
-	for (y = 'a'; y <= 'f'; y++)
-	{
-		putchar (y);
-	}
+	char digit;
 
-putchar('\n');
+	for (digit = 'a'; digit <= 'f'; digit++)
+		putchar(digit);
+
+	for (digit = 'a'; digit <= 'f'; digit++)
+		putchar(digit);
+
+	putchar('\n');
+
 return (0);
 }
